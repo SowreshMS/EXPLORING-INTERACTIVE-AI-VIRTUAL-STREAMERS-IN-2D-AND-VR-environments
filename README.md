@@ -9,6 +9,7 @@ Streaming, particularly with the advent of virtual streamers or VTubers, has gai
 
 ## Architecture
 ![architecture](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/ef74aad5-f383-477e-b3b5-f87b5bedfc2d)
+*Architecture Diagram*
 
 The design goal of Vivi is to interact seamlessly with the viewers and stream on both traditional platforms like Twitch and in a VR environment, catering to the preferences of both PC and VR users (Fig. 1).
 
