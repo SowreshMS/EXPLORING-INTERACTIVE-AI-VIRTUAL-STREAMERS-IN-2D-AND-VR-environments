@@ -1,6 +1,8 @@
 # EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments
 *By: Sowresh Mecheri-Senthil, Jose Garcia, Terrell Johnson, Korbin Schulz, Abbas Khawaja*
 
+[Beyond_Gaming.pdf](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/files/13542033/Beyond_Gaming.pdf)
+
 ## Introduction
 Streaming, particularly with the advent of virtual streamers or VTubers, has gained immense popularity in the entertainment industry. However, the interactivity that popular streaming platforms like Twitch offer is bounded by the constraints of a 2D screen. We introduce Vivi, an AI-powered virtual streamer equipped with machine-learning models for intelligent communication with viewers. Deployed on both Twitch and in a Virtual Reality (VR) environment, Vivi aims to enhance user immersion and interaction while mimicking human streamers.
 
