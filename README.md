@@ -32,6 +32,8 @@ The design goal of Vivi is to interact seamlessly with the viewers and stream on
 
 ![t](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/9fcb527b-05c4-4262-9887-8399cf34f651) <img width="237" alt="mixamo-animation" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/18db772a-6f21-48c7-a2d8-86b15d6fc6ab"> ![vrscene](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/00a351df-f76f-4169-a9f5-3f26669acd8e)
 
+*Vivi The Avatar*
+
 **Stream**: The stream consists of two main components: Streamlabs and Twitch. We used Streamlabs to create a stream overlay and record the stream. Then, we used a Twitch API key to stream the content from Streamlabs. In the VR Environment, the stream is displayed on the TV (Fig. 6) and the streamer is within the environment.
 
 ## Results
@@ -39,12 +41,15 @@ While training our agents in various game environments, we observed a consistent
 
 ![graph1](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/b42198e9-d23d-48ba-9c9b-64f6ca63123a)
 
+*Flappy Bird - Cumulative Rewards*
+
 As the number of steps executed increased, the cumulative score's growth accelerated (Fig. 7). This trend shows that the agent was able to improve its performance and become more proficient at learning in its environment.
 
 ## Demos
 
 <img width="447" alt="2d-demo-new" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/eec7d344-cc3b-4401-bd27-b2b72ffedaf8"> <img width="452" alt="vr-demo" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/98d50c56-7dd8-441c-b8ae-09a9b0db482a">
 
+*Vivi's Stream in VR and 2D*
 
 ## Conclusion
 Experimentation in the "2D" environment illustrates Vivi's interaction capabilities in a standard streaming setting. Placing Vivi in a VR environment cultivates a more connected experience for viewers due to Vivi's ability to dynamically respond to spatial interactions, potentially attracting a larger audience. The immersive nature of VR enhances the possibilities for engagement, making the streaming experience more captivating and appealing to viewers.
