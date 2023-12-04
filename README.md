@@ -17,21 +17,30 @@ The design goal of Vivi is to interact seamlessly with the viewers and stream on
 
 **Environment**: We developed four games (Fig. 2) in the Unity Game Engine and added a game menu to facilitate switching between them. Each game was trained using MLAgents, where the agent is rewarded for achieving a goal and penalized for failing to meet certain criteria. The model is activated after the streamer selects a game (Fig. 3).
 
-![gamemenubg](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/8f26e60b-6877-42c2-8089-a55cf280409f)
-<img width="602" alt="dk" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/b6b2ffa6-1d08-40fa-a30c-b9fd04a90051">
+![gamemenubg](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/885f9656-0fe8-4d8e-bddf-82afb70f47a3) <img width="493" alt="dk" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/a3fdd397-2d09-4548-9402-dd39a2a184a2">
+
+
+
+
 
 **Large Language Model (LLM)**: Our LLM is powered by GPT-3.5, a state-of-the-art LLM that can comprehend human language and generate relevant text based on it. To improve Vivi's streamer-like persona, we used prompt engineering to fine-tune the LLM's responses. In the 2D environment, Vivi interacts with viewers by responding to messages in the Twitch chat. In the VR environment, Vivi dynamically responds to user speech.  
 
 **Avatar**: We created Vivi's avatar using VRoid Studio, a 3D humanoid avatar creation application. The avatar's expressions change according to the sentiment from our LLM (Fig. 4). We used Mixamo animations to create haptic interactions the VR users can interact with (Fig. 5). The streamer is able to reply to 2D and VR users using Google Cloud Platform's text-to-speech API.
+
+![t](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/9fcb527b-05c4-4262-9887-8399cf34f651) <img width="237" alt="mixamo-animation" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/18db772a-6f21-48c7-a2d8-86b15d6fc6ab"> ![vrscene](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/00a351df-f76f-4169-a9f5-3f26669acd8e)
 
 **Stream**: The stream consists of two main components: Streamlabs and Twitch. We used Streamlabs to create a stream overlay and record the stream. Then, we used a Twitch API key to stream the content from Streamlabs. In the VR Environment, the stream is displayed on the TV (Fig. 6) and the streamer is within the environment.
 
 ## Results
 While training our agents in various game environments, we observed a consistent pattern. Initially, the agents faced challenges in determining the optimal interactions within their respective environments to maximize rewards. However, as the number of executed steps increased, they exhibited gradual improvement and achieved more consistent higher rewards.
 
+![graph1](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/b42198e9-d23d-48ba-9c9b-64f6ca63123a)
+
 As the number of steps executed increased, the cumulative score's growth accelerated (Fig. 7). This trend shows that the agent was able to improve its performance and become more proficient at learning in its environment.
 
 ## Demos
+
+<img width="447" alt="2d-demo-new" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/eec7d344-cc3b-4401-bd27-b2b72ffedaf8"> <img width="452" alt="vr-demo" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/98d50c56-7dd8-441c-b8ae-09a9b0db482a">
 
 
 ## Conclusion
