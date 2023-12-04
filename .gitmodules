@@ -4,3 +4,6 @@
 [submodule "submodules/DinoGame"]
 	path = submodules/DinoGame
 	url = https://github.com/FireboltLegend/DinoGame.git
+[submodule "submodules/Virtual-Streamer"]
+	path = submodules/Virtual-Streamer
+	url = https://github.com/SowreshMS/Virtual-Streamer.git
