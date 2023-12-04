@@ -34,6 +34,8 @@ The design goal of Vivi is to interact seamlessly with the viewers and stream on
 ## Results
 While training our agents in various game environments, we observed a consistent pattern. Initially, the agents faced challenges in determining the optimal interactions within their respective environments to maximize rewards. However, as the number of executed steps increased, they exhibited gradual improvement and achieved more consistent higher rewards.
 
+![graph1](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/b42198e9-d23d-48ba-9c9b-64f6ca63123a)
+
 As the number of steps executed increased, the cumulative score's growth accelerated (Fig. 7). This trend shows that the agent was able to improve its performance and become more proficient at learning in its environment.
 
 ## Demos
