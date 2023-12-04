@@ -6,6 +6,7 @@ Streaming, particularly with the advent of virtual streamers or VTubers, has gai
 
 ## Architecture
 ![architecture](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/334b73c2-e7e6-4920-bd3a-0dde8e8a8227)
+
 The design goal of Vivi is to interact seamlessly with the viewers and stream on both traditional platforms like Twitch and in a VR environment, catering to the preferences of both PC and VR users (Fig. 1).
 
 **PC User**: For PC users, interaction occurs through the Twitch chat, where the user's input is read and contextualized by a Large Language Model (LLM) that generates sentiments and responses tailored to the user's messages. The LLM prompts the avatar to evoke specific facial animations and contextualizes user game requests, influencing the streamer's choice of games. Additionally, the LLM interprets in-game information, enabling the streamer to provide commentary on the ongoing gameplay. Finally, Vivi replies back to the user through the avatar, facilitating a dynamic streaming experience.
