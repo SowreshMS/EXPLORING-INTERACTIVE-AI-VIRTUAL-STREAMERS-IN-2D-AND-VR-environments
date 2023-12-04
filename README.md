@@ -27,6 +27,11 @@ The design goal of Vivi is to interact seamlessly with the viewers and stream on
 
 **Avatar**: We created Vivi's avatar using VRoid Studio, a 3D humanoid avatar creation application. The avatar's expressions change according to the sentiment from our LLM (Fig. 4). We used Mixamo animations to create haptic interactions the VR users can interact with (Fig. 5). The streamer is able to reply to 2D and VR users using Google Cloud Platform's text-to-speech API.
 
+![t](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/6e4f8676-6821-45e6-a280-e696a816ccab) <img width="338" alt="mixamo-animation" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/d21dd859-852a-43d8-9cae-fa3de1652f31"> ![vrscene](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/35fd176a-f628-4d87-923e-d8f83e08b7aa)
+
+
+
+
 **Stream**: The stream consists of two main components: Streamlabs and Twitch. We used Streamlabs to create a stream overlay and record the stream. Then, we used a Twitch API key to stream the content from Streamlabs. In the VR Environment, the stream is displayed on the TV (Fig. 6) and the streamer is within the environment.
 
 ## Results
