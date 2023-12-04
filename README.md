@@ -9,7 +9,7 @@ The design goal of Vivi is to interact seamlessly with the viewers and stream on
 
 **PC User**: For PC users, interaction occurs through the Twitch chat, where the user's input is read and contextualized by a Large Language Model (LLM) that generates sentiments and responses tailored to the user's messages. The LLM prompts the avatar to evoke specific facial animations and contextualizes user game requests, influencing the streamer's choice of games. Additionally, the LLM interprets in-game information, enabling the streamer to provide commentary on the ongoing gameplay. Finally, Vivi replies back to the user through the avatar, facilitating a dynamic streaming experience.
     
-**VR User**: In the VR environment, users have the ability to communicate through speech and hand gestures directed towards the virtual streamer. These actions are interpreted and contextualized by the Large Language Model (LLM), prompting the avatar to respond accordingly. For example, Vivi can answer questions or engage in interactive gestures such as a handshake, enhancing the immersive experience for VR users.
+**VR User**: In the VR environment, users have the ability to communicate through speech and hand gestures directed toward the virtual streamer. These actions are interpreted and contextualized by the Large Language Model (LLM), prompting the avatar to respond accordingly. For example, Vivi can answer questions or engage in interactive gestures such as a handshake, enhancing the immersive experience for VR users.
 
 ## Components
 
@@ -33,6 +33,7 @@ As the number of steps executed increased, the cumulative score's growth acceler
 Experimentation in the "2D" environment illustrates Vivi's interaction capabilities in a standard streaming setting. Placing Vivi in a VR environment cultivates a more connected experience for viewers due to Vivi's ability to dynamically respond to spatial interactions, potentially attracting a larger audience. The immersive nature of VR enhances the possibilities for engagement, making the streaming experience more captivating and appealing to viewers.
 
 [1] Wu, L., Liu, Q., Zhao, J., & Lank, E. (2023). Interactions across displays and space: A study of virtual reality streaming practices on Twitch. Proceedings of the ACM on Human-Computer Interaction, 7(ISS), 242–265. https://doi.org/10.1145/3626473
+
 [2] Hanski, J., & Biçak, K. B. (2021). An Evaluation of the Unity Machine Learning Agents Toolkit in Dense and Sparse Reward Video Game Environments (Dissertation).
+
 [3] Brown, T. B., et al \textit{Language Models are Few-Shot Learners} arXiv:2005.14165v4 [cs.CL] 22 Jul 2020}
-    
