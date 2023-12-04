@@ -25,6 +25,7 @@ The design goal of Vivi is to interact seamlessly with the viewers and stream on
 ![gamemenubg](https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/885f9656-0fe8-4d8e-bddf-82afb70f47a3) <img width="493" alt="dk" src="https://github.com/SowreshMS/EXPLORING-INTERACTIVE-AI-VIRTUAL-STREAMERS-IN-2D-AND-VR-environments/assets/132632885/a3fdd397-2d09-4548-9402-dd39a2a184a2">
 
 *Game Menu & Donkey Kong Game*
+
 **Large Language Model (LLM)**: Our LLM is powered by GPT-3.5, a state-of-the-art LLM that can comprehend human language and generate relevant text based on it. To improve Vivi's streamer-like persona, we used prompt engineering to fine-tune the LLM's responses. In the 2D environment, Vivi interacts with viewers by responding to messages in the Twitch chat. In the VR environment, Vivi dynamically responds to user speech.  
 
 **Avatar**: We created Vivi's avatar using VRoid Studio, a 3D humanoid avatar creation application. The avatar's expressions change according to the sentiment from our LLM (Fig. 4). We used Mixamo animations to create haptic interactions the VR users can interact with (Fig. 5). The streamer is able to reply to 2D and VR users using Google Cloud Platform's text-to-speech API.
