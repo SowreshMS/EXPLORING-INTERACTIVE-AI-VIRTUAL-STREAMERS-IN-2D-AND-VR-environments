@@ -5,7 +5,7 @@
 Streaming, particularly with the advent of virtual streamers or VTubers, has gained immense popularity in the entertainment industry. However, the interactivity that popular streaming platforms like Twitch offer is bounded by the constraints of a 2D screen. We introduce Vivi, an AI-powered virtual streamer equipped with machine-learning models for intelligent communication with viewers. Deployed on both Twitch and in a Virtual Reality (VR) environment, Vivi aims to enhance user immersion and interaction while mimicking human streamers.
 
 ## Architecture
-![architecture](architecture.png = 88.5x73.8)
+![architecture](architecture.png =88.5x73.8)
 
 The design goal of Vivi is to interact seamlessly with the viewers and stream on both traditional platforms like Twitch and in a VR environment, catering to the preferences of both PC and VR users (Fig. 1).
 
